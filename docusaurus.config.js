@@ -93,7 +93,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/synesthesia-network/synesthesia-network.github.io/edit/master/blog/',
+            'https://github.com/synesthesia-network/synesthesia-network.github.io/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
