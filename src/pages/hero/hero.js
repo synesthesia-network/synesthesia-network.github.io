@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function Hero() {
 	const [animeLoaded, setAnimeLoaded] = useState(false);
 	const [animationLoaded, setAnimationLoaded] = useState(false);
+
+	let animationScript = useBaseUrl("logo/animation.js");
 
 	useEffect(() => {
 		var loadScript = function (src) {
@@ -20,7 +23,7 @@ export default function Hero() {
 		}
 
 		if (!animationLoaded) {
-			loadScript("../../static/logo/animation.js");
+			loadScript(animationScript);
 			setAnimationLoaded(true);
 		}
 	});
