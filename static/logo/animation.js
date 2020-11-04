@@ -14,22 +14,24 @@ function fitElementToParent(el, padding) {
 	window.addEventListener('resize', resize);
 }
 
-var blockAnimation = (function () {
-
-	var blockEl = document.querySelector('.block-animation');
-	var blockPathEls = blockEl.querySelectorAll('.block polygon');
+function animateLogo(still = false, fit = false) {
+	var blockEl = document.querySelector('#blockAnimation');
+	var blockPathEls = blockEl.querySelectorAll('polygon');
 	var pathLength = blockPathEls.length;
 	var animations = [];
 
-	fitElementToParent(blockEl);
+	if (fit) {
+		fitElementToParent(blockEl);
+	}
 
 	var breathAnimation = anime({
 		begin: function () {
 			for (var i = 0; i < pathLength; i++) {
+				let breathHeight = still ? 0 : 4;
 				animations.push(anime({
 					targets: blockPathEls[i],
-					stroke: { value: [`hsl(${i * (360 / 10)},100%,50%)`, 'rgba(80,80,80,.35)'], duration: 500 },
-					translateY: [100 - (10 * i), 100 - (10 * i) + 4],
+					stroke: { value: [`hsl(${i * (360 / (pathLength - 1))},100%,50%)`, 'rgba(80,80,80,.35)'], duration: 500 },
+					translateY: [100 - (10 * i), 100 - (10 * i) + breathHeight],
 					easing: 'easeOutQuad',
 					autoplay: false
 				}));
@@ -79,5 +81,9 @@ var blockAnimation = (function () {
 	}
 
 	init();
+};
 
-})();
+var still = document.currentScript.getAttribute('still') || false;
+var fit = document.currentScript.getAttribute('fit') || true;
+
+animateLogo(still, fit);

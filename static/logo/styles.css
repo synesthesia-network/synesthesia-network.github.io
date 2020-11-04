@@ -10,7 +10,7 @@ body {
 
 .hero {
   position: absolute;
-  z-index: 999;
+  z-index: 10;
   font-family: 'IBM Plex Serif', serif;
   color: #fafafa;
 }
@@ -23,12 +23,12 @@ body {
   font-size: 1.5vw;
 }
 
-.animation-wrapper {
+.animationWrapper {
   width: 50%;
   padding-bottom: 50%;
 }
 
-.sphere-animation {
+.blockAnimation {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -37,15 +37,15 @@ body {
   margin: -290px 0 0 -290px;
 }
 
-.sphere path {
-  fill: url(#sphereGradient);
+.block polygon {
+  fill: url(#blockGradient);
   stroke-width: 1px;
   stroke: rgba(80,80,80,.35);
   backface-visibility: hidden;
 }
 
 @media (min-width: 500px) {
-  .sphere path {
+  .block polygon {
     stroke-width: .4px;
   }
 }

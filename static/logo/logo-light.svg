@@ -1,0 +1,40 @@
+<svg
+	preserveAspectRatio="xMinYMin meet"
+	viewBox="0 0 220 220"
+	xmlns="http://www.w3.org/2000/svg"
+>
+<defs>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,200;1,100');
+	</style>
+</defs>
+<g stroke="rgba(80,80,80,.25)" fill="rgba(0,0,0,0)" transform="translate(10,10)">
+	<polygon transform="translate(0,100)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,90)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,80)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,70)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,60)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,50)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,40)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,30)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,20)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,10)" points="0 50, 100 100, 200 50, 100 0"/>
+	<polygon transform="translate(0,0)" points="0 50, 100 100, 200 50, 100 0"/>
+</g>
+<g>
+	<text
+		fill="#050505"
+		x="50%"
+		y="50%"
+		font-family='IBM Plex Serif'
+		dominant-baseline="middle"
+		text-anchor="middle"
+		font-size="35"
+		paint-order="stroke"
+		stroke="#fff"
+		stroke-width="2"
+	>
+		synesthesia
+	</text>
+</g>
+</svg>

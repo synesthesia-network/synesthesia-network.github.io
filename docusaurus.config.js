@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://synesthesia-network.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'logo/icon-dark-color.svg',
   organizationName: 'synesthesia-network', // Usually your GitHub org/user name.
   projectName: 'synesthesia-network.github.io', // Usually your repo name.
   themeConfig: {
@@ -12,10 +12,10 @@ module.exports = {
       defaultMode: 'dark',
     },
     navbar: {
-      title: 'Synesthesia',
+      title: 'synesthesia',
       logo: {
         alt: 'Synesthesia Network',
-        src: 'img/logo.svg',
+        src: 'logo/icon-dark-color.svg',
       },
       items: [
         {
