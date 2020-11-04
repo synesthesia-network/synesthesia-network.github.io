@@ -8,6 +8,9 @@ module.exports = {
   organizationName: 'synesthesia-network', // Usually your GitHub org/user name.
   projectName: 'synesthesia-network.github.io', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Synesthesia',
       logo: {
