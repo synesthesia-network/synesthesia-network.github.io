@@ -31,7 +31,7 @@ function animateLogo(still = false, fit = false) {
 				animations.push(anime({
 					targets: blockPathEls[i],
 					stroke: { value: [`hsl(${i * (360 / (pathLength - 1))},100%,50%)`, 'rgba(80,80,80,.35)'], duration: 500 },
-					translateY: [100 - (10 * i), 100 - (10 * i) + breathHeight],
+					translateY: [100 - (100 / (pathLength - 1) * i), 100 - (100 / (pathLength - 1) * i) + breathHeight],
 					easing: 'easeOutQuad',
 					autoplay: false
 				}));
