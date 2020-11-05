@@ -19,11 +19,6 @@ module.exports = {
         src: 'logo/icon-dark-color.svg',
       },
       items: [
-        {
-          to: 'https://github.com/synesthesia-network/',
-          label: 'GitHub',
-          position: 'right',
-        },
         // {
         //   to: 'docs/',
         //   activeBasePath: 'docs',
@@ -31,11 +26,11 @@ module.exports = {
         //   position: 'left',
         // },
         // {to: 'blog', label: 'Blog', position: 'left'},
-        // {
-        //   href: 'https://github.com/synesthesia-network/',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          to: 'https://github.com/synesthesia-network/',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
