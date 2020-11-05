@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Synesthesia',
-  tagline: 'A different view of blockchains.',
+  tagline: 'a different kind of blockchain.',
   url: 'https://synesthesia-network.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

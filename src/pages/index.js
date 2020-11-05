@@ -1,7 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
@@ -9,22 +8,22 @@ import Hero from '../components/hero';
 
 const features = [
   {
-    title: 'People First',
+    title: 'User Focused',
     imageUrl: 'img/circle.svg',
     description: (
       <>
-        Synesthesia's primary focus is creating indistinguishable web
-        experiences atop the blockchain.
+        Synesthesia's primary focus is creating indistinguishable first class
+        web experiences atop the blockchain.
       </>
     ),
   },
   {
-    title: 'Social Structures',
+    title: 'Social Hierarchies',
     imageUrl: 'img/triangle.svg',
     description: (
       <>
         Native social structures and hierarchies will be used to incentivize
-        behavior on the network.
+        behavior on the network and simplify sybil resistance.
       </>
     ),
   },
@@ -34,13 +33,15 @@ const features = [
     description: (
       <>
         Unlike other <a href="https://github.com/paritytech/substrate">Substrate</a> based chains,
-        Synesthesia will build unique logic from the ground up.
+        Synesthesia will create unique{' '}
+        <a href="https://substrate.dev/docs/en/knowledgebase/runtime/pallets">building blocks</a>
+        {' '}from the ground up.
       </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -57,11 +58,11 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={siteConfig.title}
+      description="a different kind of blockchain">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <Hero />

@@ -32,7 +32,7 @@ export default function Hero() {
 		<div className={styles.heroWrapper}>
 			<div className={styles.hero}>
 				<div className={styles.title}>synesthesia</div>
-				<div className={styles.subtitle}>a different view of blockchains</div>
+				<div className={styles.subtitle}>a different kind of blockchain</div>
 			</div>
 			<div id="animationWrapper" className={styles.animationWrapper}>
 				<div id="blockAnimation" className={styles.blockAnimation}>
