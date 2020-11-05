@@ -33,16 +33,3 @@
   height: 580px;
   margin: -290px 0 0 -290px;
 }
-
-.block polygon {
-  fill: url(#blockGradient);
-  stroke-width: 1px;
-  stroke: rgba(80,80,80,.35);
-  backface-visibility: hidden;
-}
-
-@media (min-width: 500px) {
-  .block polygon {
-    stroke-width: .4px;
-  }
-}
