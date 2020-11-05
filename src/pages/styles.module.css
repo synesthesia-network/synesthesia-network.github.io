@@ -30,9 +30,11 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  background-color: #000;
+  text-align: center;
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }

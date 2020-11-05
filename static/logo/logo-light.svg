@@ -26,7 +26,8 @@
 		fill="#050505"
 		x="50%"
 		y="50%"
-		font-family='IBM Plex Serif'
+		font-family="IBM Plex Serif"
+		font-weight="200"
 		dominant-baseline="middle"
 		text-anchor="middle"
 		font-size="35"

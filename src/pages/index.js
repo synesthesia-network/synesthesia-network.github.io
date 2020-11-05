@@ -9,32 +9,32 @@ import Hero from './hero/hero';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'People First',
+    imageUrl: 'img/circle.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Synesthesia's primary focus is creating indistinguishable web
+        experiences atop the blockchain.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Social Structures',
+    imageUrl: 'img/triangle.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Native social structures and hierarchies will be used to incentivize
+        behavior on the network.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Building Blocks',
+    imageUrl: 'img/square.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Unlike other <a href="https://github.com/paritytech/substrate">Substrate</a> based chains,
+        Synesthesia will build unique logic from the ground up.
       </>
     ),
   },
