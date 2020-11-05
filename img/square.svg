@@ -1,0 +1,14 @@
+<svg
+	preserveAspectRatio="xMinYMin meet"
+	viewBox="0 0 220 220"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<rect
+		width="200"
+		height="200"
+		transform="translate(10,10)"
+		fill="rgba(0,0,0,0)"
+		stroke-width="3"
+		stroke="hsl(324,100%,50%)"
+	/>
+</svg>
