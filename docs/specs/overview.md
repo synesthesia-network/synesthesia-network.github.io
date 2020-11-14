@@ -6,4 +6,4 @@ slug: /specs
 ---
 
 These pages will detail how specifically we will design Synesthesia to achieve the
-[vision](../vision) layed out above.
+[vision](../vision/overview.md) layed out above.
