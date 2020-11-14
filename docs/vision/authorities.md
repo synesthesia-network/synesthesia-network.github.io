@@ -15,7 +15,7 @@ New blocks will produce a reward that will be given to the block producers
 
 Synesthesia plans to make account registration a relatively permissioned process.
 
-See [Vision > Accounts > Sybil Resistance](./accounts#sybil-resistance).
+See [Chat Integration](./chat.md).
 
 To support this, there will be at least one high permission registrar who can onboard new users.
 

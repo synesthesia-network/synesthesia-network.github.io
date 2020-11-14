@@ -11,8 +11,9 @@ module.exports = {
           items: [
             'vision/overview',
             'vision/accounts',
-            'vision/tokens',
             'vision/authorities',
+            'vision/chat',
+            'vision/tokens',
             'vision/problems',
           ],
         },
