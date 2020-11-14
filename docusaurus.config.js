@@ -8,6 +8,7 @@ module.exports = {
   organizationName: 'synesthesia-network', // Usually your GitHub org/user name.
   projectName: 'synesthesia-network.github.io', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: false,
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: true,
@@ -19,12 +20,12 @@ module.exports = {
         src: 'logo/icon-dark-color.svg',
       },
       items: [
-        // {
-        //   to: 'docs/',
-        //   activeBasePath: 'docs',
-        //   label: 'Docs',
-        //   position: 'left',
-        // },
+        {
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'right',
+        },
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           to: 'https://github.com/synesthesia-network/',
