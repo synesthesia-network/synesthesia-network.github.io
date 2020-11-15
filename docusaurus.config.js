@@ -37,49 +37,53 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Style Guide',
-        //       to: 'docs/',
-        //     },
-        //     {
-        //       label: 'Second Doc',
-        //       to: 'docs/doc2/',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/substrate',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: '#',
-        //     },
-        //     {
-        //       label: 'Twitter',
-        //       href: 'https://twitter.com/synestheisa_net',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: 'blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/synesthesia-network/',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'Docs',
+          items: [
+            // {
+            //   label: 'Welcome',
+            //   to: 'docs/',
+            // },
+            {
+              label: 'Vision',
+              to: 'docs/vision',
+            },
+            {
+              label: 'Specification',
+              to: 'docs/specs',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            // {
+            //   label: 'Stack Overflow',
+            //   href: 'https://stackoverflow.com/questions/tagged/substrate',
+            // },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/AUcE9yPJAT',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/synestheisa_net',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Assets',
+              href: '/logo/logos.html',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/synesthesia-network/',
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Synesthesia Network`,
     },

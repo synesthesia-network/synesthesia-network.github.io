@@ -10,10 +10,10 @@
   --ifm-color-primary: hsl(180, 100%, 50%);
   --ifm-color-primary-dark: hsl(216, 100%, 50%);
   --ifm-color-primary-darker: hsl(252, 100%, 50%);
-  --ifm-color-primary-darkest: hsl(288, 100%, 50%);;
-  --ifm-color-primary-light: hsl(144, 100%, 50%);;
-  --ifm-color-primary-lighter: hsl(108, 100%, 50%);;
-  --ifm-color-primary-lightest: hsl(72, 100%, 50%);;
+  --ifm-color-primary-darkest: hsl(288, 100%, 50%);
+  --ifm-color-primary-light: hsl(144, 100%, 50%);
+  --ifm-color-primary-lighter: hsl(108, 100%, 50%);
+  --ifm-color-primary-lightest: hsl(72, 100%, 50%);
   --ifm-code-font-size: 95%;
 }
 
@@ -32,6 +32,10 @@
 
 .navbar, .footer, html {
   background-color: #000;
+}
+
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
 }
 
 .navbar__title {

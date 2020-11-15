@@ -5,9 +5,7 @@ title: Vision
 slug: /vision
 ---
 
-Synesthesia Network claims to be different than other blockchains.
-
-The vision documents you can find in this section should help explain why.
+Synesthesia Network claims to be different than other blockchains. The vision documents you can find in this section should help explain why.
 
 At a high level, Synesthesia will focus on user experience over pure efficiency.
 

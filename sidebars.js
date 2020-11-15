@@ -13,6 +13,8 @@ module.exports = {
             'vision/accounts',
             'vision/authorities',
             'vision/chat',
+            'vision/hierarchies',
+            'vision/reputation',
             'vision/tokens',
             'vision/problems',
           ],

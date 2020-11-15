@@ -38,17 +38,22 @@ manipulated.
 
 ### Reputation Building
 
-Discord already provides a number of available bots for reputation development:
+On chain reputation can develop by participating in chat. A reputation bot will live on the channel
+and track the participation of users. The protocol for reputation building will be simple to start:
 
-* https://top.gg/tag/leveling
+* +1 reputation per 24 hours for participating in chat
+* +1 reputation per post that per 5 "engagement" user reactions
+* -1 reputation per post that per 3 "warning" user reactions
 
-To start, Synesthesia will take advantage of one of these bot systems to translate chat participation
-and reputation into on-chain reputation.
+User reactions will start simple:
+
+* Engagement: `:thumbsup:`, `:thumbsdown:`
+* Warning: `:warning:`
 
 ### Democracy Voting
 
 New democracy proposals can appear in a special channel as a message from a Synesthesia bot.
-`:thumbs_up:` and `:thumbs_down:` reactions can be used to for verified users to simply vote on
+`:thumbsup:` and `:thumbsdown:` reactions can be used to for verified users to simply vote on
 these proposals. Using the link between the user's discord account and Synesthesia account, an
 oracle can place that vote on behalf of the user.
 

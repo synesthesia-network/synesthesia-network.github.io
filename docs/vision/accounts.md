@@ -40,6 +40,8 @@ Accounts will natively form networks of trust.
 * These loose connections can be used offline to track behaviors of networks.
 * Proofs can be reported to the chain when bad actors are isolated to propagate reputation changes.
 
+Learn more about our vision for a [reputation system](reputation.md).
+
 ## Account Hierarchies
 
 Accounts will natively be placed into hierarchies based on various criteria.
@@ -47,3 +49,5 @@ Accounts will natively be placed into hierarchies based on various criteria.
 * Users with more tokens can attest to that and lock their tokens to gain status. As long as they
 keep their tokens, they will remain in that role.
 * Users can be nominated into privileged roles which automatically elevate their status.
+
+Learn more about our vision for [user hierarchies](hierarchies.md)
