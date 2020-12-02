@@ -15,6 +15,15 @@
   --ifm-color-primary-lighter: hsl(108, 100%, 50%);
   --ifm-color-primary-lightest: hsl(72, 100%, 50%);
   --ifm-code-font-size: 95%;
+  /* Custom Synesthesia Styling */
+  --ifm-font-color-base: #fff;
+  --ifm-menu-color: #fff;
+  --ifm-background-color: #000;
+  --ifm-navbar-background-color: #000;
+  --ifm-footer-background-color: #000;
+  --ifm-color-content-secondary: #aaa;
+  --ifm-toc-link-color: #aaa;
+  --ifm-table-stripe-background: #333;
 }
 
 .docusaurus-highlight-code-line {
